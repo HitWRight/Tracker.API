@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -12,6 +8,7 @@ using Microsoft.Extensions.Logging;
 using Project.WEB.Data;
 using Project.WEB.Models;
 using Project.WEB.Services;
+using Project.WEB.Models.Project;
 
 namespace Project.WEB
 {
@@ -47,6 +44,9 @@ namespace Project.WEB
 
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddDbContext<ProjectDbContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("ProjectDB")));
 
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
