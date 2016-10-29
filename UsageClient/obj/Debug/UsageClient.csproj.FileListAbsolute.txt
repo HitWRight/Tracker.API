@@ -1,0 +1,11 @@
+E:\KTU programavimas\UsageClient\bin\Debug\UsageClient.exe.config
+E:\KTU programavimas\UsageClient\bin\Debug\UsageClient.exe
+E:\KTU programavimas\UsageClient\bin\Debug\UsageClient.pdb
+E:\KTU programavimas\UsageClient\obj\Debug\UsageClient.csprojResolveAssemblyReference.cache
+E:\KTU programavimas\UsageClient\obj\Debug\UsageClient.exe
+E:\KTU programavimas\UsageClient\obj\Debug\UsageClient.pdb
+E:\KTU programavimas\UsageClient\bin\Debug\Newtonsoft.Json.dll
+E:\KTU programavimas\UsageClient\bin\Debug\Newtonsoft.Json.xml
+E:\KTU programavimas\Tracker.API\UsageClient\bin\Debug\UsageClient.exe.config
+E:\KTU programavimas\Tracker.API\UsageClient\obj\Debug\UsageClient.exe
+E:\KTU programavimas\Tracker.API\UsageClient\obj\Debug\UsageClient.pdb
